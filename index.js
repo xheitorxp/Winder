@@ -8,7 +8,7 @@ console.log(process.env)
 const fs = require('fs');
 
 const bot = new aoijs.AoiClient({
-	token: 'process.env.TOKEN',
+	token: process.env.TOKEN,
 	prefix: 'pw!',
      intents: ["Guilds", "GuildMembers", "GuildBans", "GuildEmojisAndStickers", "GuildIntegrations", "GuildWebhooks", "GuildInvites", "GuildVoiceStates", "GuildPresences", "GuildMessages", "GuildMessageReactions", "GuildMessageTyping", "DirectMessages", "DirectMessageReactions", "DirectMessageTyping", "MessageContent"],
      aoiLogs: false,
