@@ -36,7 +36,7 @@ $color[2;#1900ff]
 
 $thumbnail[1;$userAvatar[$mentioned[1]]]
 $footer[2;Use $getGuildVar[prefixo]Background | $getGuildVar[prefixo]Sobremim]
-$image[2;$getUserVar[background;$mentioned[1];861313067291115541]]
+$image[2;$getGlobalUserVar[background;$findUser[$message;yes]]]
 
 `
 }
