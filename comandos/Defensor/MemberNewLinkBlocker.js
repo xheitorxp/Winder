@@ -1,16 +1,17 @@
-module.exports = [{
+//module.exports = [{
 name: "$alwaysExecute",
 code: `
 $ifAwaited[$checkContains[$toLowercase[$message];http:/;https:/;www.]==true;
 {execute:membernewlink-blocker}]
 
 $onlyIf[$getUserVar[totalmensagens;$authorID;861313067291115541]<=10;]
+$onlyIf[$isBot==false;]
 `  
 },{
 name: "membernewlink-blocker",
 type: "awaited",
 code: `
-$channelSendMessage[861367708716236800;{newEmbed:
+$channelSendMessage[$getVar[punishmentLog];{newEmbed:
 {author:$userTag[$findUser[$message[1]]] ($findUser[$message[1]]) | Banido:https://cdn.discordapp.com/emojis/1063526458359808070.png?size=2048}
 {description:
 **⭐ Punido por:**

@@ -3,17 +3,9 @@ bot.variables({
 
   "prefixo": "pw!",
   "pinwTemp": "A EVOLUÇÃO (2T)",
-  
-  
-//configuração de canais padrão
-  "log-publico": "861337787192836117", //O seu bot vai usar para enviar quem saiu, quem entrou e afins, recomendamos que seja o canal de bate-papo do seu servidor.
-  "log-privado": "923998719765004299", //recomendamos que seja um canal privado, o seu bot vai usar como console.
-  "update-channel": "923998719765004299", //canal de updates que o bot faz que não tem problema em ser visto para todo mundo.
-  "server-name": "pinwheel", //Nome que o bot vai usar para se referir ao servidor que está, recomendamos por o nome do seu servidor.
- "server-id": "861313067291115541", //ID do servidor padrão
 
   "versão": "Winder 30.2",
-  "meta": "",
+  "meta": "0",
   "background": "https://media.discordapp.net/attachments/785632865709981756/1042055150673592461/IMG_20221115_084626.png",
   "sobremim": "Qual frase representa você? Use pw!sobremim para mudar isso aqui!",
   "totalmensagens": "0",
@@ -37,9 +29,9 @@ bot.variables({
 //economia
   "cataventos": "0",
   "happyhour": "false",
-  "money": "0",
+  "coins": "0",
   "daily": "",
-  "dailyLast": "",
+  "dailyLast": "01/01/2022",
   "emojicoin": "",
   "thumbcoin": "https://cdn.discordapp.com/emojis/1005256756689109002.png?size=2048",
 

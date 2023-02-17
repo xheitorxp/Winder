@@ -5,12 +5,13 @@ $ifAwaited[$getUserVar[modMsg]>=4;
 {execute:modMsg1}
 ]
 $log[Iniciado "ModMsg" de $userTag]
+$onlyIf[$isBot==false;]
 `
 },{
 name: "modMsg1",
 type: "awaited",
 code: `
-$channelSendMessage[861367708716236800;{newEmbed:
+$channelSendMessage[$getVar[punishmentLog];{newEmbed:
 {author:$userTag[$findUser[$message[1]]] ($findUser[$message[1]]) | Banido:https://cdn.discordapp.com/emojis/1063526458359808070.png?size=2048}
 {description:
 **⭐ Punido por:**

@@ -18,6 +18,8 @@ $setGuildVar[allmensagens;$sum[$getGuildVar[allmensagens;861313067291115541];1];
 
 $onlyForGuilds[861313067291115541;]
 $onlyIf[$checkContains[$channelID;1066689771109363732;1066689827250110555]==false;]
+
+$onlyIf[$isBot==false;]
 `
 }
 

@@ -27,14 +27,14 @@ $color[1;f98f04]
 
 $createObject[$fetch[user;$authorID]]
 
-$useChannel[861331580903620608]
+$useChannel[$getVar[JoinedLeaveLog]]
 $wait[1s]
 `
 },{
 name: "JoinCmd",
 type: "awaited",
 code: `
-$channelSendMessage[861337787192836117;<@$authorID> Bem Vindo! {newEmbed:
+$channelSendMessage[$getVar[log-publico];<@$authorID> Bem Vindo! {newEmbed:
 {author:$userTag veja essas dicas!}
 {description:
 • Pegue cores, cargos em <#1067131704835321866>
@@ -58,7 +58,7 @@ $color[1;f98f04]
 
 $createObject[$fetch[user;$authorID]]
 
-$useChannel[861331580903620608]
+$useChannel[$getVar[JoinedLeaveLog]]
 `
 },{
 name: "WelcomeDMSend",

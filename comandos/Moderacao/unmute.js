@@ -9,7 +9,7 @@ code: `
 
 $ifAwaited[$isUserDMEnabled[$findUser[$message[1]]]==true;{execute:unmute-dm}]
 
-$channelSendMessage[861367708716236800;{newEmbed:
+$channelSendMessage[$getVar[punishmentLog];{newEmbed:
 {author:$userTag[$findUser[$message[1]]] ($findUser[$message[1]]) | Voltou a falar:https://cdn.discordapp.com/emojis/1063526458359808070.png?size=2048}
 {description:
 **⭐ Punido por:**
