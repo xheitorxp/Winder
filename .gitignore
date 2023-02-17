@@ -5,5 +5,4 @@ node_modules
 .gitconfig
 .git
 squarecloud.config
-index.js
 package-lock.json
