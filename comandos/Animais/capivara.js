@@ -6,7 +6,7 @@ category: "Animal",
 usage: "capivara",
 code: `$botTyping
 <@$authorID>
-$attachment[$getObjectProperty[link];$username[$clientID]-capy.jpg]
+$attachment[$getObjectProperty[link];$username[$clientID]-capybara.jpg]
 $createObject[$jsonRequest[https://api.animality.xyz/img/capybara]]
 $serverCooldown[30s;<@$authorID> | Espere **%time%** para executar este comando novamente!]
 $suppressErrors[Eu tentei executar o comando \`$commandName\` e eu juro que eu fiz o máximo possível.
