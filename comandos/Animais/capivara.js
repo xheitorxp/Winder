@@ -1,6 +1,6 @@
 module.exports = {
 name: "capivara",
-aliases: ['capy'],
+aliases: ['capy', 'capivarias],
 desc: "Veja uma foto aleatória de uma capivara!",
 category: "Animal",
 usage: "capivara",
